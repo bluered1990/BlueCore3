@@ -1,0 +1,17 @@
+name: BlueCore
+version: 1.0
+main: me.blueb8h.bluecore.BlueCore
+api-version: 1.20
+commands:
+  money:
+    description: View your balance
+  pay:
+    description: Pay another player
+  rank:
+    description: Manage ranks
+  tpa:
+    description: Request teleport
+  tpaccept:
+    description: Accept teleport
+  shop:
+    description: Open shop
