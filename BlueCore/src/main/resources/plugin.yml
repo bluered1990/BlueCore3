@@ -2,16 +2,36 @@ name: BlueCore
 version: 1.0
 main: me.blueb8h.bluecore.BlueCore
 api-version: 1.20
+author: blueb8h
+
 commands:
-  money:
-    description: View your balance
+  rank:
+    description: Set player rank
+    usage: /rank <player> <rank>
+    permission: bluecore.rank
+
+  bal:
+    description: Check your balance
+    usage: /bal
+
   pay:
     description: Pay another player
-  rank:
-    description: Manage ranks
+    usage: /pay <player> <amount>
+
+  eco:
+    description: Economy admin command
+    usage: /eco <give|take|set> <player> <amount>
+    permission: bluecore.eco
+
   tpa:
-    description: Request teleport
+    description: Send teleport request
+    usage: /tpa <player>
+
   tpaccept:
-    description: Accept teleport
+    description: Accept teleport request
+
+  tpdeny:
+    description: Deny teleport request
+
   shop:
-    description: Open shop
+    description: Open shop GUI
